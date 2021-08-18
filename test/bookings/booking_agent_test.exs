@@ -56,7 +56,7 @@ defmodule Flightex.Bookings.AgentTest do
 
       response = BookingsAgent.get("banana")
 
-      expected_response = {:error, "Booking not found"}
+      expected_response = {:error, "Booking not Found"}
 
       assert response == expected_response
     end
